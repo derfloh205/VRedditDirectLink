@@ -55,7 +55,7 @@ $(document).ready(function () {
         if($(".domain")[0].innerHTML.includes("v.redd.it")) {
             let listElement = $($(".post-sharing-button").get(0).parentElement).get(0);
             let dataUrl = window.location.href;
-            let directLinkButton = "<li><a href='javascript void 0;'>direct-link</a></li>";
+            let directLinkButton = "<li><a href='javascript: void 0;'>direct-link</a></li>";
             $(listElement).after(directLinkButton);
             $($(listElement).next()).click(function () {
                 directShare(dataUrl, this);
@@ -70,7 +70,7 @@ $(document).ready(function () {
                 // find its share-button
                 let shareButton = $(currentDiv).find(".post-sharing-button").get(0);
                 let dataUrl = "https://reddit.com" + currentDiv.getAttribute("data-permalink");
-                let directLinkButton = "<li><a href='javascript void 0;'>direct-link</a></li>";
+                let directLinkButton = "<li><a href='javascript: void 0;'>direct-link</a></li>";
                 let listElement = $(shareButton.parentElement).get(0);
                 $(listElement).after(directLinkButton);
                 $($(listElement).next()).click(function () {
