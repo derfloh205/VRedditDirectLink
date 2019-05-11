@@ -2,7 +2,7 @@
 Fetches the FallbackUrl for V.Reddit Links to get direct links to reddit videos
 
 # Usage
-Click on the Icon on the Browser Extension Bar when you are in an opened Thread with an embedded v.reddit video.
+Click on the new "direct-link" button next to the share button for v.redd.it media content
 
 # How to Enable in your Chrome
 
